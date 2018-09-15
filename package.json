@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/mottox2/netlify-functions-examples.git",
   "author": "mottox2 <y.mottox2@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "netlify-lambda": "^0.4.0"
+  },
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  }
 }
