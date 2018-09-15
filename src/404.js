@@ -1,15 +1,11 @@
-function createReponse(status, body) {
-  return {
+exports.handler = function(event, context, callback) {
+  callback(null, {
     headers: {
       'Content-Type': 'application/json'
     },
-    statusCode: status,
-    body: JSON.stringify(body)
-  }
-}
-
-exports.handler = function(event, context, callback) {
-  callback(null, createReponse(404, {
-    message: "Content is not found."
-  }));
+    statusCode: 404,
+    body: JSON.stringify({
+      message: "This is 404"
+    })
+  })
 }
