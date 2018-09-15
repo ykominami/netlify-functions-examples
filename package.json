@@ -1,0 +1,8 @@
+{
+  "name": "netlify-functions-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mottox2/netlify-functions-examples.git",
+  "author": "mottox2 <y.mottox2@gmail.com>",
+  "license": "MIT"
+}
