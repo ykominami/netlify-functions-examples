@@ -2,8 +2,8 @@
   "name": "netlify-functions-examples",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/mottox2/netlify-functions-examples.git",
-  "author": "mottox2 <y.mottox2@gmail.com>",
+  "repository": "https://github.com/ykominami/netlify-functions-examples.git",
+  "author": "ykominami <ykominami@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.22.2",
@@ -12,5 +12,23 @@
   "scripts": {
     "build": "netlify-lambda build src/",
     "serve": "netlify-lambda serve src/"
+  },
+  "resolutions": {
+   "tar": "^4.4.18",
+   "glob-parent": "^5.1.2",
+   "hosted-git-info": "^2.8.9",
+   "y18n": "^3.2.2",
+   "ini": "^1.3.6",
+   "yargs-parser": "^13.1.2",
+   "elliptic": "^6.5.4",
+   "acorn": "^5.7.4",
+   "minimist": "^1.2.3",
+   "kind-of": "^6.0.3",
+   "set-value": "^2.0.1",
+   "mixin-deep": "^1.3.2",
+   "mem": "^4.0.0",
+   "lodash": "^4.17.21",
+   "core-js": "^3.4",
+   "chokidar": "^3"
   }
 }
