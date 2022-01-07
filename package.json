@@ -1,0 +1,16 @@
+{
+  "name": "netlify-functions-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ykominami/netlify-functions-examples.git",
+  "author": "ykominami <ykominami@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "netlify-lambda": "^0.4.0"
+  },
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  }
+}
