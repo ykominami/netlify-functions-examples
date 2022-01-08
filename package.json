@@ -6,11 +6,10 @@
   "author": "ykominami <ykominami@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.22.2",
-    "netlify-lambda": "^0.4.0"
+    "netlify-lambda": "^2.0.15"
   },
   "scripts": {
     "build": "netlify-lambda build src/",
-    "serve": "netlify-lambda serve src/"
+    "dev": "netlify-lambda serve src/"
   }
 }
