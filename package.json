@@ -9,7 +9,7 @@
     "netlify-lambda": "^2.0.15"
   },
   "scripts": {
-    "build": "netlify-lambda build src/",
-    "dev": "netlify-lambda serve src/"
+    "build": "netlify-lambda build resources/api",
+    "dev": "netlify-lambda serve resources/api"
   }
 }
