@@ -10,7 +10,8 @@
     "netlify-lambda": "^0.4.0"
   },
   "resolutions": {
-    "mem": "~> 4.0.0"
+    "mem": "~> 4.0.0",
+    "yargs-parser": "~>13.1.2"
   },
   "scripts": {
     "build": "netlify-lambda build src/",
