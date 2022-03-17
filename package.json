@@ -9,6 +9,9 @@
     "moment": "^2.22.2",
     "netlify-lambda": "^0.4.0"
   },
+  "resolutions": {
+    "mem": "~> 4.0.0"
+  },
   "scripts": {
     "build": "netlify-lambda build src/",
     "serve": "netlify-lambda serve src/"
